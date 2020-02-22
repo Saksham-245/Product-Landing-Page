@@ -132,7 +132,7 @@ iframe{
   }
 
   #email{
-    margin-left: 20%;
+    margin-left: 15%;
     padding-right: 15%;
   }
 
@@ -167,11 +167,73 @@ iframe{
   iframe{
     width: auto;
     height: auto;
-    margin-left: 13%;
+    margin-left: 10%;
     margin-top: 5%;
   }
 
   .footer-copyright{
-    padding-left: 50%;
+    padding-left: 40%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 481px){
+
+  .fire-icon{
+    margin-bottom: -8%;
+  }
+
+  .truck-icon{
+    margin-bottom: -8%;
+  }
+
+  .battery-icon{
+    margin-bottom: -8%;
+  }
+
+  #features .row .col .col h2{
+    margin-left: 35%;
+  }
+
+  #features .row .col .col p{
+    padding-left: 37%;
+  }
+
+  iframe{
+    width: auto;
+    height: auto;
+    margin-left: 20%;
+    padding-left: 5%;
+  }
+
+  .footer-copyright{
+    padding-left: 65%;
+  }
+}
+
+@media(max-width: 1024px) and (min-width: 768px){
+
+  #features .row .col .col h2{
+    margin-left: 35%;
+  }
+
+  #features .row .col .col p{
+    padding-left: 37%;
+  }
+
+  iframe{
+    margin-left: 8%;
+  }
+
+  .footer-copyright{
+    padding-left: 75%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) and (orientation: landscape){
+  iframe{
+    padding-left: 10%;
+  }
+  .footer-copyright{
+    padding-left: 80%;
   }
 }
