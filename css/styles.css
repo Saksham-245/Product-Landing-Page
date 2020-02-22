@@ -126,7 +126,7 @@ iframe{
   padding-right: 2%;
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) and (min-width: 320px){
   .container h4{
     font-size: 1rem;
   }
@@ -212,6 +212,18 @@ iframe{
 
 @media(max-width: 1024px) and (min-width: 768px){
 
+  .fire-icon{
+    margin-bottom: -7%;
+  }
+
+  .truck-icon{
+    margin-bottom: -7%;
+  }
+
+  .battery-icon{
+    margin-bottom: -7%;
+  }
+
   #features .row .col .col h2{
     margin-left: 35%;
   }
@@ -233,7 +245,7 @@ iframe{
   iframe{
     padding-left: 10%;
   }
-  .footer-copyright{
+  .xfooter-copyright{
     padding-left: 80%;
   }
 }
